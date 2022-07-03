@@ -11,6 +11,12 @@ public class MusicListLc920 {
      */
     private static final int MOD = 1_000_000_007;
 
+    /**
+     * @param n 不同歌曲数量
+     * @param l 列表长度
+     * @param k 多少首歌曲播放后才可以重复播放
+     * @return
+     */
     public static int numMusicPlaylists(int n, int l, int k) {
         // 参数校验
         if (k < 0 || n <= 0 || l <= 0) {
